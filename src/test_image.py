@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 model = load_model("model.h5")
 
 # Image to test (put any traffic sign image path here)
-IMAGE_PATH = "../dataset/test/00000.png"   # change if needed
+IMAGE_PATH = "../dataset/test/00006.png"   # change if needed
 IMG_SIZE = 32
 
 # Read and preprocess image
